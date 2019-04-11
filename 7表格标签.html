@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格</title>
+</head>
+<!--
+<table>表格标签
+
+表格使用到的标签
+  <table>  表格
+  <tr>     行
+  <td>     列
+  <th>     表头  默认的格式是加粗，居中
+  <caption>  表格的标题
+表格常用的属性：
+   border:  设置表格的边框
+   width:   设置表格的宽度
+   height：设置表格的高度
+   colspan：设置单元格占据指定的列数
+   rowspsn：设置单元格占据指定的行数
+
+-->
+<body>
+    <table border="1px;"  width="400px" align="center" >
+        <caption>期末考试成绩表</caption>
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>分数</th>
+                <th>人品</th>
+            </tr>
+        </thead>
+
+       <tbody>
+            <tr>
+                <td rowspan="2">张三</td>
+                <td>98</td>
+                <td>优</td>
+            </tr>
+
+            <tr>
+
+                <td>100</td>
+                <td>优</td>
+            </tr>
+
+            <tr>
+                <td>王五</td>
+                <td>99</td>
+                <td>非常好</td>
+            </tr>
+
+            <tr>
+                <td>综合测评</td>
+                <td colspan="2">非常好</td>
+            </tr>
+       </tbody>
+    </table>
+
+</body>
+</html>
